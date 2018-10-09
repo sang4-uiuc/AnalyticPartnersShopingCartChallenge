@@ -1,0 +1,44 @@
+.Product {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /* width: 50%; */
+    /* align-items: center; */
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+
+.List {
+    position: relative
+}
+
+.ProductName {
+    /* align-self: flex-start */
+    margin-left: 300px
+    /* display:inline-block; */
+    /* border: 3px solid green; */
+}
+
+.ProductButton {
+    margin-left:auto; 
+    margin-right: 300px;
+}
+
+.CheckoutViewButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ShopButton {
+    margin-left: 100px
+}
+
+.BasketButton {
+    margin-right: 100px
+}
+
+.CheckOutButton {
+    position: absolute;
+    right: 80px;
+    /* border: 3px solid green; */
+}
